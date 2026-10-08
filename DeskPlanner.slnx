@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/docs/">
+    <File Path="docs/思路.md" />
+    <File Path="docs/问题.md" />
+  </Folder>
+  <Folder Name="/RootDocs/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="src/CalendarDayCell/CalendarDayCell.csproj" Id="80f395ac-afe5-4901-9ae9-1a1a3ab33d1c" />
+  <Project Path="src/DesktopCalendar/DesktopCalendar.csproj" />
+  <Project Path="src/TodoCalendar/TodoCalendar.csproj" Id="bcd474fd-8a80-45ec-b9f1-6be671eb9b21" />
+</Solution>

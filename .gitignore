@@ -1,0 +1,64 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# NuGet
+packages/
+*.nupkg
+*.nuget
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Dotnet
+project.lock.json
+project.fragment.lock.json
+*.runtimeconfig.dev.json
+
+# Publish
+publish/
+.publish/
+
+# Test results
+TestResults/
+*.trx
+
+# Logs
+*.log
+
+# User secrets and sensitive files
+secrets.json
+*.pfx
+*.cer
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.mdf
+*.ldf
+
+# Package managers
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# JetBrains Rider cache
+.idea/
