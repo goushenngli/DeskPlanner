@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DesktopCalendar.ViewModels;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -20,6 +22,7 @@ namespace DesktopCalendar.Views
         public TodoEditWindow()
         {
             InitializeComponent();
+            DataContext = App.Services.GetRequiredService<TodoEditWindowViewModel>();
         }
         public TodoEditWindow(Window owner) : this()
         {

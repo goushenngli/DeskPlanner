@@ -7,7 +7,7 @@ using DesktopCalendar.Interfaces;
 using DesktopCalendar.Services;
 using DesktopCalendar.ViewModels;
 using DesktopCalendar.Views;
-
+using TodoCalendar.ViewModels;
 namespace DesktopCalendar
 {
     /// <summary>
@@ -70,6 +70,7 @@ namespace DesktopCalendar
             // 注册各页面的私有 ViewModel 为 transient
             services.AddTransient<CalendarWindowViewModel>();
             services.AddTransient<SettingsWindowViewModel>();
+            services.AddTransient<TodoEditWindowViewModel>();
         }
     }
 
