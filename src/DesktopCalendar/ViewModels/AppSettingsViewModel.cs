@@ -23,9 +23,20 @@ namespace DesktopCalendar.ViewModels
         // 程序图标
         [ObservableProperty]
         private BitmapFrame? _trayIconSource;
+
         // 透明度设置
-        [ObservableProperty]
         private double _opacity = 0.5;
+        public double Opacity
+        {
+            get => _opacity;
+            set
+            {
+                // 限制保留两位小数
+                double roundedValue = Math.Round(value, 2);
+                SetProperty(ref _opacity, roundedValue);
+            }
+        }
+
         // 重置透明度
         [RelayCommand]
         public void ResetOpacity()
